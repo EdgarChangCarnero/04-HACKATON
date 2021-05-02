@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0%;
+    padding: 0;
+    min-height: 100vh;
+    background-color:#34267E    
+}
+.contenedor{
+    width: 70%;
+    margin: 10% auto;
+    background-color: white;
+    box-shadow: 0 0 30px 3px black;
+}
+header{
+    padding-bottom: 30%;
+    background-color:  #3D2F87;
+}
+header section{
+    float: left;
+    color: white;
+    width: 50%;
+    height: 100%;
+    margin: 10% auto;
+    text-align: center;
+}
+header section span{
+    display: block;
+}
+header section h2{
+    opacity: 0.7;
+}
+.caja-nav{
+    margin: 2% auto;    
+}
+header section nav li{
+    list-style: none;
+    opacity: 0.7;
+    display: inline;
+    padding: 1em;    
+}
+header section nav li:last-child{
+    background: #6527AD;
+    border-radius: 50%;
+}
+header section nav a{
+    text-decoration: none;
+    color: white;
+}
+
+/*
+GRUPO UNO
+*/
+.grupoUno{
+    clear: left;
+    margin: 0 15%;
+}
+.grupoUno div{
+    width: 25%;
+    margin: 1em;
+    float: left;
+    margin: 0 2em;    
+    box-shadow: 0 0 10px 3px black;
+    text-align: center;
+    padding: 1em;
+    border-radius: 10%;
+}
+.grupoUno h2{
+    color: #6527AD;
+}
+
+/*
+GRUPO DOS
+*/
+.grupoDos{
+    clear: left;
+    margin: 0 15%;
+}
+.grupoDos div{
+    width: 35%;    
+    height: 250px;
+    margin: 5% 2em;   
+    float: left;    
+}
+.Citigroup{
+   width: 100%;
+   height: 100%;
+    background-image: url('https://img1.freepng.es/20180529/jxg/kisspng-iphone-samsung-galaxy-smartphone-hand-holding-a-cell-phone-5b0d312ea71774.4317282015275912146844.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*
+GRUPO TRES
+*/
+.grupoTres{
+    clear: left;
+    margin: 0 15%;
+}
+.grupoTres div{
+    width: 35%;    
+    height: 250px;
+    margin: 5% 2em;   
+    float: left;    
+}
+.celular{
+    width: 100%;
+    height: 100%;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Celular_pope.webp/1200px-Celular_pope.webp.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.celular h2{
+    position:absolute;
+    bottom: -2%;
+}
+/*
+GRUPO CUATRO
+*/
+.grupoCuatro{
+    clear: left;
+    margin: 0 15%;
+    text-align: left;
+    color: #6527AD;
+}
+.grupoCuatro span{
+    display: block;
+}
+
+/*
+GRUPO CINCO
+*/
+.fondoMorado{
+    margin: 0 10%;
+    border-radius: 20%;
+    width: 900px;
+    height: 300px;
+    background: linear-gradient(0deg, white, #6527AD);
+}
